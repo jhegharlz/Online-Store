@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<!-- <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"> -->
+  	<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+	<title>Add to Cart Interaction | CodyHouse</title>
+</head>
+<body>
+<main>
+<div class="searchwrap">
+	<div class="searchitem">
+	<input type="text" id="myInput" onkeyup="search()" placeholder="Search for items.." title="Type in a item">
+    </div>
+    <div  class="pricefilter">
+         <div data-role="rangeslider">
+        <input type="range" name="price-min" id="price-min" value="0" min="0" max="1000">
+        <input type="range" name="price-max" id="price-max" value="1000" min="0" max="1000">
+      </div>
+    </div> 
+
+</div>
+<div class="cartwrapper">
+	<div class="cartwrap">
+		<p><img src="img/cart-img.png" /></p>
+		<a href="#0" class="cd-add-to-cart" data-href="img/cart-img.png" data-name="HypoChlor" data-price="20">Add To Cart</a>		
+		<h1>HypoChlor</h1>
+		<h3>Price: $20</h3>
+		<p>Short Description Add Here...</p>
+
+	</div>
+	<div class="cartwrap">	
+		<p><img src="img/cart-img2.png" /></p>
+		<a href="#0" class="cd-add-to-cart" data-href="img/cart-img2.png" data-name="Retaine" data-price="15">Add To Cart</a>		
+		<h1>Retaine</h1>
+		<h3>Price: $15</h3>
+		<p>Short Description Add Here...</p>
+
+
+	</div>
+	<div class="cartwrap">		
+		<p><img src="img/cart-img3.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img3.png" data-name="Retaine PM" data-price="15">Add To Cart</a>	
+		<h1>Retaine PM</h1>
+		<h3>Price: $15</h3>
+		<p>Short Description Add Here...</p>
+
+	</div>
+	<div class="cartwrap">	
+		<p><img src="img/cart-img4.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img4.png" data-name="Heat Compress" data-price="20">Add To Cart</a>
+		<h1>Heat Compress</h1>
+		<h3>Price: $20</h3>
+		<p>Short Description Add Here...</p>
+	</div>	
+
+	<div class="cartwrap">	
+		<p><img src="img/cart-img5.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img5.png" data-name="Cool Compress" data-price="20">Add To Cart</a>
+		<h1>Cool Compress</h1>
+		<h3>Price: $20</h3>
+		<p>Short Description Add Here...</p>
+
+		
+	</div>
+	<div class="cartwrap">	
+		<p><img src="img/cart-img6.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img6.png" data-name="Stye Compess" data-price="20">Add To Cart</a>
+		<h1>Stye Compess </h1>
+		<h3>Price: $20</h3>
+		<p>Short Description Add Here...</p>
+
+		
+	</div>
+	<div class="cartwrap">	
+		<p><img src="img/cart-img7.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img7.png" data-name="Restore Vitamins 1 pk" data-price="20">Add To Cart</a>
+		<h1>Restore Vitamins 1 pk </h1>
+		<h3>Price: $32</h3>
+		<p>Short Description Add Here...</p>
+
+		
+	</div>
+	<div class="cartwrap">	
+		<p><img src="img/cart-img8.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img8.png" data-name="Restore Vitamins 3 pk" data-price="90">Add To Cart</a>
+		<h1>Restore Vitamins 3 pk </h1>
+		<h3>Price: $90</h3>
+		<p>Short Description Add Here...</p>
+
+		
+	</div>
+	<div class="cartwrap">	
+		<p><img src="img/cart-img9.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img9.png" data-name="Restore Vitamins 6 pk" data-price="174">Add To Cart</a>
+		<h1>Restore Vitamins 6 pk</h1>
+		<h3>Price: $174</h3>
+		<p>Short Description Add Here...</p>
+
+		
+	</div>
+	<div class="cartwrap">	
+		<p><img src="img/cart-img10.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img10.png" data-name="Zeaxanthin Vitamins 1 pk " data-price="35">Add To Cart</a>
+		<h1>Zeaxanthin Vitamins 1 pk </h1>
+		<h3>Price: $35</h3>
+		<p>Short Description Add Here...</p>
+
+		
+	</div>
+
+		<div class="cartwrap">	
+		<p><img src="img/cart-img11.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img11.png" data-name="Zoria Combo Package(Boost&Boost Mascara)" data-price="150">Add To Cart</a>
+		<h1>Zoria Combo Package(Boost&Boost Mascara) </h1>
+		<h3>Price: $150</h3>
+		<p>Short Description Add Here...</p>
+				
+	</div>	
+
+	<div class="cartwrap">	
+		<p><img src="img/cart-img12.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img12.png" data-name="Zeaxanthin Vitamins 3 pk" data-price="99">Add To Cart</a>
+		<h1>Zeaxanthin Vitamins 3 pk </h1>
+		<h3>Price: $99</h3>
+		<p>Short Description Add Here...</p>
+
+		
+	</div>
+	<div class="cartwrap">	
+		<p><img src="img/cart-img13.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img13.png" data-name="Zoria Boost" data-price="110">Add To Cart</a>
+		<h1>Zoria Boost</h1>
+		<h3>Price: $110</h3>
+		<p>Short Description Add Here...</p>
+		
+	</div>
+	<div class="cartwrap">	
+		<p><img src="img/cart-img.png" /></p>
+		<a href="#0" class="cd-add-to-cart" class="cd-add-to-cart" data-href="img/cart-img.png" data-name="Zoria Boost Mascara" data-price="50">Add To Cart</a>
+		<h1>Zoria Boost Mascara </h1>
+		<h3>Price: $50</h3>
+		<p>Short Description Add Here...</p>
+
+	</div>
+
+</div>		
+</main>
+
+<div class="cd-cart-container empty">
+	<a href="#0" class="cd-cart-trigger">
+		Cart
+		<ul class="count"> <!-- cart items count -->
+			<li>0</li>
+			<li>0</li>
+		</ul> <!-- .count -->
+	</a>
+
+	<div class="cd-cart">
+		<div class="wrapper">
+			<header>
+				<h2 style="width: 100%">Cart <a href="#" id="clearbutton" style="float: right;">Empty Cart</a></h2>
+				<span class="undo">Item removed. <a href="#0">Undo</a></span>
+			</header>
+			
+			<div class="body">
+				<ul id="ullink">
+					<!-- products added to the cart will be inserted here using JavaScript -->
+				</ul>
+
+			</div>
+
+			<footer>
+				<a href="checkout.html" class="checkout btn"><em>Checkout - $<span>0</span></em></a>
+			</footer>
+		</div>
+	</div> <!-- .cd-cart -->
+</div> <!-- cd-cart-container -->
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script>
+        if (!window.jQuery) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+    </script>
+    <script src="js/main.js"></script>
+    <!-- Resource jQuery -->
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</body>
+</html>
